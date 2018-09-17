@@ -5,11 +5,22 @@
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 	<title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
 	<link href="css/seu-stylesheet.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="scripts/seu-script.js"></script>
   <style>
+    html {
+      background:#ffffff;
+      padding:20px;
+    }
+    body{
+      font-family: 'Open Sans', sans-serif;
+      padding:20px;
+      background: #FCFCFC;
+    }
     h1 {
       text-align:center;
       color:#9DD991;
+      letter-spacing: 3px;
     }
     h4 {
       text-align:center;
@@ -34,7 +45,7 @@
   <p><strong>class*=""</strong> Select all class with string "someting" even words placed together...<br> <div class="is-good-somethinghas-some"></div></p>
   
   <h4>div[class~="something"] { }</h4>
-  <p><strong>class~~=""</strong> Select all class with string "someting" separeted...<br> <div class="is-good-something-has-some"></div></p>
+  <p><strong>class~=""</strong> Select all class with string "someting" separeted...<br> <div class="is-good-something-has-some"></div></p>
 
 </body>
 </html>
