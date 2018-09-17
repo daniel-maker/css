@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
+	<link href="css/seu-stylesheet.css" rel="stylesheet"/>
+	<script src="scripts/seu-script.js"></script>
+  <style>
+    h1 {
+      text-align:center;
+      color:#9DD991;
+    }
+    h4 {
+      text-align:center;
+      color:#0E576C;
+    }
+    p {
+      text-align:center;
+      color:#127F7F;
+    }
+  </style>
+</head>
+<body>
+  <h1>Attribute wildcard selector</h1>
+  
+  <h4>div[class^="something"] { }</h4>
+  <p><strong>class^=""</strong> We use when the text start with someting<br> <div class="something-very-good"></div></p>
+  
+  <h4>div[class$="something"] { }</h4>
+  <p><strong>class$=""</strong> We use when the text end with someting<br> <div class="is-good-something"></div></p>
+  
+  <h4>div[class*="something"] { }</h4>
+  <p><strong>class*=""</strong> Select all class with string "someting" even words placed together...<br> <div class="is-good-somethinghas-some"></div></p>
+  
+  <h4>div[class~="something"] { }</h4>
+  <p><strong>class~~=""</strong> Select all class with string "someting" separeted...<br> <div class="is-good-something-has-some"></div></p>
+
+</body>
+</html>
